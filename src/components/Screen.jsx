@@ -1,9 +1,9 @@
 import "../assets/scss/Screen.scss";
 
-function Screen() {
+function Screen({ operation }) {
   return (
     <div className="screen">
-      <span className="screen__operations">XXX,XXX</span>
+      <span className="screen__operations">{operation}</span>
     </div>
   );
 }

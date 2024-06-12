@@ -95,3 +95,15 @@
     transform: translate(300%, -50%);
   }
 }
+
+#dark {
+  .theme-switch {
+    &__switch {
+      background-color: hsl(268, 71%, 12%);
+
+      &::before {
+        background-color: hsl(176, 100%, 44%);
+      }
+    }
+  }
+}
